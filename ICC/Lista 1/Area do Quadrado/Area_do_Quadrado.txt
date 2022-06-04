@@ -1,0 +1,2 @@
+Ler o valor do lado L (do tipo inteiro) de um quadrado.
+Retornar a área do quadrado.
