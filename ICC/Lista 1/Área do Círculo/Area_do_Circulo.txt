@@ -1,0 +1,3 @@
+Efetue o cálculo da área do círculo dado um raio (ponto flutuante com duas casas decimais) informado pelo usuário, considerando PI = 3.14159
+
+A área deve ser apresentada com 4 casas após o ponto decimal (use variável do tipo double).
