@@ -1,0 +1,16 @@
+Implemente um programa em C que imprima o tamanho dos tipos de dados primitivos da linguagem. Seu programa deve utilizar do operador sizeof para obter o tamanho dos tipos e então imprimir esses tamanhos em linhas separadas na ordem seguinte ordem:
+
+unsigned char
+char
+unsigned int
+short int
+int
+long int
+unsigned long int
+long long int
+float
+double
+long double
+
+Instruções complementares:
+Pesquisar sobre o operador sizeof. Qual a diferença entre ele e as outras funções?
