@@ -13,7 +13,10 @@ A fábrica é representada por uma matriz de 32 x 64 caracteres, ou seja, 32 lin
 * '[' - Começo da esteira.
 * ']' - Fim da esteira.
 * ' ' - Espaço em branco.
+
 Por exemplo, considere a seguinte fábrica
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira-1.png)
 
 
 Plínio começa no canto superior esquerdo, no caractere imediatamente à direita de onde o '[' se se encontra. Sempre haverá apenas um '[' na esteira e Plínio sempre inicia na esteira a direita desse caractere.
