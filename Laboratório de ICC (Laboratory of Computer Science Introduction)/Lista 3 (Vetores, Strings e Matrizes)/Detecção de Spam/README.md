@@ -18,8 +18,8 @@ Seu programa deverá identificar se aquela linha de email que foi lida contém a
 
 Para os propósitos desse exercícios, considere diferenças em capitalização das palavras como palavras diferentes. Então a linha "Consmeticos Gratuitos" não contém nenhuma palavra da lista.
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/Detec%C3%A7%C3%A3o%20de%20Spam/deteccao_spam0.png)
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/Detec%C3%A7%C3%A3o%20de%20Spam/deteccao_spam1.png)
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/Detec%C3%A7%C3%A3o%20de%20Spam/deteccao_spam2.png)
