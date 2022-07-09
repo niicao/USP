@@ -15,7 +15,7 @@ m é garantido de caber num inteiro de 4 bytes. 2 <= m < 2^31.
 
 1 <= p <= m
 
-text
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%202%20(Condicional%20%26%20Repeti%C3%A7%C3%A3o)/Um%20Pinguim%2C%20no%20gelo%2C%20uhuu/pingnogelo0.png)
 
 Explicação: As 11 rodadas foram
 
@@ -31,4 +31,4 @@ Explicação: As 11 rodadas foram
 1. 3 pinguins
 1. 3 pinguins (vez de Pingu)
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%202%20(Condicional%20%26%20Repeti%C3%A7%C3%A3o)/Um%20Pinguim%2C%20no%20gelo%2C%20uhuu/pingnogelo1.png)
