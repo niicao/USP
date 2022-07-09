@@ -11,7 +11,7 @@ Assuma que a fila começa na posição *__(0,0)__*. Caso o número de pessoas se
 
 A orientação do deslocamento da fila será similar a uma espiral, caminhando da posição *__(0, 0)__* até o final da linha, baixando até o final, voltando à esquerda e retornando ao início, conforme a ilustração a seguir:
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%202%20(Condicional%20%26%20Repeti%C3%A7%C3%A3o)/Astronauta%20Confuso/astronauta0.png)
 
 **Atenção:** Não é preciso utilizar estruturas de dados, apenas variáveis para acumular o posicionamento do astronauta, os quais deverão ser obtidos através de estruturas de repetição.
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%202%20(Condicional%20%26%20Repeti%C3%A7%C3%A3o)/Astronauta%20Confuso/astronauta1.png)
