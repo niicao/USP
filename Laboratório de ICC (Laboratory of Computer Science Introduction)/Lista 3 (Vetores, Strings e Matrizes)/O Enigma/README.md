@@ -16,16 +16,22 @@ Com 3 rotores a situação é a mesma, mas temos 3 rotores conectados em série.
 Por sorte, não é necessário construir fisicamente essa máquina, já que seria lento e custoso. Podemos, ao invés disso, simular ela!
 
 Cada rotor pode ser representado por um vetor, onde o índice é a conexão no lado do teclado e o valor naquele índice representa a conexão com a lâmpada. Imagine o seguinte vetor:
-////
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/O%20Enigma/enigma0.png)
+
 Aqui estamos considerando que o número 0 representa 'a', 1 'b', e assim por diante. Naquele exemplo com apenas um rotor, teríamos que quando a letra 'a' é pressionada, olhamos rotor[0] que é 1 e portanto a lâmpada acesa seria a de rótulo 'b'. Ou seja, a decodificação da letra 'a', nessa configuração, é a letra 'b'. Em seguida rotacionamos o rotor o que é efetivamente mover todos os valores do vetor uma casa para a esquerda. O próximo estado do rotor seria
-////
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/O%20Enigma/enigma1.png)
+
 Ou seja, se pressionássemos a letra 'a' novamente, obteríamos 'c', já que agora rotor[0] é 2.
 
 Com mais rotores, basta sequenciar eles. Com 3 rotores, para codificar a letra 'a', por exemplo, fazemos rotor3[rotor2[rotor1[0]]] e vemos o resultado.
 
 ## Entrada
 A entrada será fornecida no seguinte formato
-////
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/O%20Enigma/enigma2.png)
+
 Os valores dos rotores serão uma sequência de 26 números indicando o que deve ser posto em cada vetor que representa cada rotor.
 
 <mensage> é um texto cifrado de tamanho arbitrário (ler até EOF). Ao invés de ler tudo de uma vez e depois processar, pode-se ficar num ciclo de lê caractere, transforma, imprime, lê, transforma, imprime, etc.
@@ -39,4 +45,4 @@ A saída deve ser a mensagem decodificada.
 
 ## Dicas de implementação
 Para ignorar uma linha, pode-se usar
-  ////
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/O%20Enigma/enigma3.png)
