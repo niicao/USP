@@ -15,7 +15,6 @@ A fábrica é representada por uma matriz de 32 x 64 caracteres, ou seja, 32 lin
 * ' ' - Espaço em branco.
 Por exemplo, considere a seguinte fábrica
 
-![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira0.png)
 
 Plínio começa no canto superior esquerdo, no caractere imediatamente à direita de onde o '[' se se encontra. Sempre haverá apenas um '[' na esteira e Plínio sempre inicia na esteira a direita desse caractere.
 
@@ -24,7 +23,8 @@ Seguindo a esteira de exemplo, Plínio vai para a direita até que precisa ir pa
 Como o robô chegou ao final da esteira, seu programa deveria imprimir *__"Ok."__* para esse caso.
 
 Mudando apenas um caractere temos
-![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira1.png)
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira0.png)
 
 Agora não há mais junção, e Plínio deveria detectar o loop. Mas como fazer isso? As partes da fábrica parecem tão iguais... Bem, há uma forma. O robô pode deixar uma marca pelos lugares que passar, substituindo o caractere naquele lugar da matriz por um '.'.
 
