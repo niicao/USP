@@ -8,6 +8,8 @@ Implemente um programa em C que leia da entrada padrão dois números inteiros p
 1. *Complement* b
 1. a *Right shift* 2
 1. b *Left shift* 2
+
+
 Instruções para implementação
 Imprima o resultado como um inteiro.
 Após o resultado de cada operação, imprima também um caractere de nova linha '\n'.
