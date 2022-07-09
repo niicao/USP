@@ -1,5 +1,3 @@
-![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%201/Apenas%20Bits/Descricao_apenasbits.png)
-
 ## Descrição
 Implemente um programa em C que leia da entrada padrão um número inteiro. Em seguida, imprima na saída padrão quatro caracteres adjacentes que sejam correspondentes aos 4 bytes contidos no *int*. Ou seja, o programa deve reinterpretar os primeiros (mais significantes) 8 bits do número como o primeiro caractere, os próximos 8 como o segundo e assim por diante.
 
