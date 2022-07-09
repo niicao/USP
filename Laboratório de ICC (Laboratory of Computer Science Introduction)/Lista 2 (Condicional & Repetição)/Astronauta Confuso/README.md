@@ -1,0 +1,17 @@
+## Descrição
+Em 2050 uma nave espacial partiu a fim de colonizar um novo sistema planetário há poucos anos-luz do planeta Terra, atalhando por um buraco de minhoca. Chegando lá, a tripulação observou alguns fenômenos um tanto curiosos. Caso mais de um astronauta saísse da nave em missão simultaneamente, apenas um retornava com vida. Portanto, foi criado um sistema para controle de missões em que apenas um astronauta era escalado em uma missão por vez, de maneira sequencial ao ingressar em uma fila de espera.
+
+Embora todos fossem muito inteligentes, atalhar por este buraco de minhoca alterou de alguma forma a percepção espacial dos tripulantes. Ninguém mais conseguia interpretar sua posição na fila de espera a partir de apenas um número sequencial *__[1...L]__*, onde L é o número de lugares na fila. Todos precisavam de uma representação numérica de 2 números.
+
+Por este motivo, o time de engenheiros projetou a câmara de saída da nave espacial em um formato matricial, mas com formato de pirâmide para preservar a aerodinâmica da nave. Ou seja, assim a fila poderia ser representada em duas dimensões. A ideia desta equipe de engenheiros foi estruturar o formato da fila seguindo uma organização parecida com uma espiral, as posições sendo definidas por posição = *__[0...N-1][0...N-1]__*. Embora fosse um formato um tanto peculiar, a câmara oferecia uma visão 360 do universo, a qual até que agradava bastante aos tripulantes.
+
+O seu objetivo nesta atividade é escrever um programa em C que recebe da entrada padrão dois parâmetros relativos ao projeto da câmara espacial e à posição de um astronauta qualquer na fila de espera. O primeiro parâmetro é a quantidade de lugares a serem projetados na câmara de saída da nave espacial pelos engenheiros responsáveis. Leia *__N__* e calcule o número de lugares *__L__* da seguinte forma: *__L = N * N__*. O segundo parâmetro é um número *__P__* que representa a quantidade posições na fila que já foram deslocadas pelo astronauta atual.
+
+Assuma que a fila começa na posição *__(0,0)__*. Caso o número de pessoas seja maior que o total de lugares na fila, ou seja *__P > L__*, imprima *__printf("O astronauta ja saiu em missao ha %d chamadas.\n", P-L);__*. Caso seja a vez do astronauta imprima *__printf("O astronauta esta na posicao: %d %d\nPreste atencao, astronauta, chegou a sua vez!\n", i, j);__*. Caso contrário, imprima na tela a posição do astronauta na fila, seguido pelo número de deslocamentos necessários até que chegue a sua vez de sair em missão da seguinte forma: *__printf("O astronauta esta na posicao: %d %d\nAinda faltam %d chamadas para a sua vez!\n", i, j, L-P);__*.
+
+A orientação do deslocamento da fila será similar a uma espiral, caminhando da posição *__(0, 0)__* até o final da linha, baixando até o final, voltando à esquerda e retornando ao início, conforme a ilustração a seguir:
+
+![alt-text]()
+
+**Atenção:** Não é preciso utilizar estruturas de dados, apenas variáveis para acumular o posicionamento do astronauta, os quais deverão ser obtidos através de estruturas de repetição.
+![alt-text]()
