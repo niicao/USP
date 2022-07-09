@@ -14,7 +14,7 @@ A fábrica é representada por uma matriz de 32 x 64 caracteres, ou seja, 32 lin
 * ']' - Fim da esteira.
 * ' ' - Espaço em branco.
 Por exemplo, considere a seguinte fábrica
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira0.png)
 Plínio começa no canto superior esquerdo, no caractere imediatamente à direita de onde o '[' se se encontra. Sempre haverá apenas um '[' na esteira e Plínio sempre inicia na esteira a direita desse caractere.
 
 Seguindo a esteira de exemplo, Plínio vai para a direita até que precisa ir para baixo e finalmente se encontra com uma junção ('#'). A junção é "escorregadia" e, como ainda se tem a velocidade adquirida das esteiras anteriores, os produtos da fábrica que passam por essa parte da esteira (assim como Plínio) seguem na mesma direção que estavam seguindo anteriormente. Nesse caso, Plínio segue para baixo até que faz a volta e cruza novamente a junção e dessa vez segue a direita e chega ao final.
@@ -22,11 +22,11 @@ Seguindo a esteira de exemplo, Plínio vai para a direita até que precisa ir pa
 Como o robô chegou ao final da esteira, seu programa deveria imprimir *__"Ok."__* para esse caso.
 
 Mudando apenas um caractere temos
-![alt-text()
+![alt-text(https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira1.png)
 Agora não há mais junção, e Plínio deveria detectar o loop. Mas como fazer isso? As partes da fábrica parecem tão iguais... Bem, há uma forma. O robô pode deixar uma marca pelos lugares que passar, substituindo o caractere naquele lugar da matriz por um '.'.
 
 Fazendo isso, se o robô encontrar um '.' em seu caminho, sabe que já passou por ali antes e, portanto, há um loop! Há apenas uma exceção. Quando Plínio vê um '#' ele não substitui por '.' pois sabe que pode passar duas vezes pela mesma junção. Depois de percorrer o exemplo acima a matriz seria
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%203%20(Vetores%2C%20Strings%20e%20Matrizes)/A%20Esteira%20de%20Pl%C3%ADnio/esteira2.png)
 Ou seja, o robô parou assim que percebeu que havia um loop, e então seu programa deverá imprimir "Loop infinito.".
 
 Por fim, para detectar se há falha na esteira é mais simples. Se o robô se encontra num lugar que não é esteira, não é junção e também não é o fim do percurso, significa que a esteira possui falha.
