@@ -11,3 +11,9 @@ O objetivo deste projeto é projetar uma fonte de tensão ajustável por meio do
 ![alt-text](https://github.com/niicao/USP/blob/main/SSC0180%20Eletr%C3%B4nica%20para%20Computa%C3%A7%C3%A3o/Fonte%20de%20Tens%C3%A3o%20Ajust%C3%A1vel/photo_5066886693231110693_y.jpeg)
 
 ![alt-text](https://github.com/niicao/USP/blob/main/SSC0180%20Eletr%C3%B4nica%20para%20Computa%C3%A7%C3%A3o/Fonte%20de%20Tens%C3%A3o%20Ajust%C3%A1vel/photo_5066886693231110694_y.jpeg)
+
+## Foto da simulação do circuito no Falstad
+
+![alt-text](https://github.com/niicao/USP/blob/main/SSC0180%20Eletr%C3%B4nica%20para%20Computa%C3%A7%C3%A3o/Fonte%20de%20Tens%C3%A3o%20Ajust%C3%A1vel/photo_5073390278739602019_w.jpeg)
+
+Link da simulação: https://tinyurl.com/falstadsimulation
