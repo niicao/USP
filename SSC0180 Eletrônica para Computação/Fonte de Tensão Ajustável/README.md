@@ -31,5 +31,10 @@ Link da simulação: https://tinyurl.com/falstadsimulation
 |Transistor 30V 0,1A 0,5W 300Mhz| R$0,50|4|R$2,00|
 |Resistor 10KOhms| R$0,35|4|R$1,40|
 |Trafo 250Ma 12+12V| R$39,60|1|R$39,60|
+|Capacitor 470uF x 25V| R$1,00|1|R$1,00|
+|Capacitor 680uF x 25V| R$5,78|1|R$5,78|
+|Varistor 250VAC| R$1,80|1|R$1,80|
+|Fusível 0,1A| R$1,10|4|R$4,40|
+|Plug AC 10A| R$6,15| 1 | R$6,15|
 |---|---|---|R$76,45|
 
