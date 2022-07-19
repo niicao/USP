@@ -44,3 +44,6 @@ Link da simulação: https://tinyurl.com/falstadsimulation
 
 ## Foto do Projeto
 ![alt-text](https://github.com/niicao/USP/blob/main/SSC0180%20Eletr%C3%B4nica%20para%20Computa%C3%A7%C3%A3o/Fonte%20de%20Tens%C3%A3o%20Ajust%C3%A1vel/IMG_2751.png)
+
+## Link do vídeo mostrando o funcionamento do Projeto
+https://youtube.com/shorts/qIeeHs1mvvo?feature=share
