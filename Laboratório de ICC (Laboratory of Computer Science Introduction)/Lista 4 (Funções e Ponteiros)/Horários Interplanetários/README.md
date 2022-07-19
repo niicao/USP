@@ -1,4 +1,4 @@
-## Horários Interplanetários
+## Horários Interplanetares
 Você, um jovem universitário mochileiro espacial, está viajando pelo sistema solar. Você está com fome e, como todo bom universitário, só tem dinheiro para comer no bandejão.
 Portanto, seria muito útil você saber quanto tempo sua viagem até cada um dos planetas durará em termos dos dias de cada planeta, já que cada um tem uma rotação diferente. Assim, você poderia traçar a melhor rota para pegar um bandejão ainda aberto, seja na Terra, em Júpiter, em Vênus ou em Mercúrio (nos outros planetas você sabe que terá picadinho).
 Para tanto, você fará um programa que receberá um inteiro contendo o total de segundos gasto na viagem e uma string contendo o nome do planeta de destino.
