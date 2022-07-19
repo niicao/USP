@@ -18,15 +18,15 @@ Além disso, na entrada padrão serão fornecidos alguns valores. Na primeira li
 A partícula de ar também não faz nada. Entretanto, ela pode ser movida de lugar por outras partículas como veremos abaixo.
 
 Já a partícula de areia sofre os efeitos da gravidade e deve seguir a algumas regras na hora de aplicar a física. Algumas posições adjacentes a essa partícula serão verificadas e, se essa posição estiver sendo preenchida por água ou ar, a areia troca de lugar com essa partícula adjacente. Isso é como dizer que a areia é mais pesada que água e ar. As posições adjacentes a serem verificadas em ordem são:
-  ![alt-text}()
+  ![alt-text}(https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas0.png)
 Se nenhuma das posições verificadas tiver água ou ar, a partícula não muda de lugar.
-  ![alt-text]()
+  ![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas1.png)
   
 Por fim, a partícula de água funciona de forma muito parecida com a partícula de areia, com a diferença de que ela só pode trocar de lugar com ar. Além disso ela também verifica a lateral esquerda e depois direita para possíveis lugares para ir.
   
- ![alt-text()
+ ![alt-text(https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas2.png)
   **Explicação**: A partícula de areia ao topo está sendo atualizada agora. Primeiro, verifica a posição imediatamente abaixo que contém areia. Como areia não é água nem ar, verifica a próxima posição que é a esquerda abaixo e, como ela contém água trocamos as partículas de posição e o processo para essa partícula está terminado.
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas3.png)
   **Explicação**: A partícula de água circulada é a que será atualizada. Os locais adjacentes são verificados na ordem especificada, entretanto o único lugar para o qual a água pode se mover é para a direita.
  ## Detalhes de implementação
 ### Representando o estado da simulação através de uma matriz
@@ -38,6 +38,7 @@ A matriz deve ser iniciada com partículas de ar em todas as posições. E pode 
 No início da função uma cópia da matriz de estado deve ser criada. Durante a simulação, as atualizações devem ser feitas nessa matriz, enquanto as verificações de qual partícula se encontra em qual posição devem ser feitas com a matriz original. Isso é necessário para que não verifiquemos posições que já foram atualizadas.
 
 **Atenção**: Para atualizar a matriz de cópia durante a execução da função de atualização da física, faça uma troca direta e simples dentro da própria matriz cópia. Não use valores diretos já que pode não haver relação entre a matriz original e a matriz de cópia em algum momento. Ou seja, é sim possível que alguns comportamentos estranhos aconteçam. Esses comportamentos, entretanto são previsíveis e não geram problemas sérios. Aqui segue um exemplo de como fazer essa troca de valores. Utilize esse tipo de troca, caso contrário seu programa não irá funcionar corretamente. O código abaixo é um exemplo onde consideramos que copia é o nome da variável com a matriz de cópia e gostaríamos de trocar a partícula da posição (j, i) com (j, i + 1).
+  ![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas4.png)
 Isso é uma troca direta, ou seja, trocamos valores apenas utilizando os dados da própria matriz de cópia. Esse tipo de troca é necessária para fazer seu programa funcionar corretamente.
 
 Percorra a matriz do topo para baixo apenas uma vez, da esquerda para a direita e atualize a partícula em cada posição de acordo com as regras. Por fim, coloque a atualização na matriz cópia.
@@ -54,3 +55,4 @@ Quando estiver rodando a simulação, pode ser que alguma partícula tente verif
 Para criar partículas, usamos da entrada padrão. Por exemplo, digamos que queremos adicionar uma partícula de areia na posição (10, 10) antes do primeiro frame ser desenhado. Então enviamos na entrada padrão: 0: 10 10 #.
 
 Na hora de criar o programa, devemos primeiro ler uma linha da entrada padrão e armazenar os valores fornecidos. Então, podemos rodar nossa simulação até o frame desejado. Chegando lá, criamos a partícula pedida e lemos mais uma linha da entrada padrão e assim segue. Aqui vai um código de exemplo de como isso pode ser feito. Sua implementação não precisa ser igual, basta seguir às mesmas regras.
+  ![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Simula%C3%A7%C3%A3o%20de%20Part%C3%ADculas/simulacaoparticulas5.png)
