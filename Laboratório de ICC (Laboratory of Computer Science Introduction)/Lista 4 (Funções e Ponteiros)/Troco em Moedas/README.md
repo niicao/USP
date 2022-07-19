@@ -13,3 +13,4 @@ O valor consiste em %d moedas de 5 centavos\n
 O valor consiste em %d moedas de 1 centavo\n
 
 ## Exemplo de Entrada e Saída
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Troco%20em%20Moedas/trocoemmoedas0.png)
