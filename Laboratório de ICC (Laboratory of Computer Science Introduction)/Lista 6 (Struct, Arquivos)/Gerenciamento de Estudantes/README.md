@@ -7,5 +7,5 @@ Permitir que um aluno seja consultado por meio de seu identificador e que seu re
 Permitir a consulta de todos os alunos de um determinado curso e impressão de seus registros (operação 2)
 Permitir que todos os registros armazenados sejam impressos (operação 3)
 
-![alt-text]( )
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%206%20(Struct%2C%20Arquivos)/Gerenciamento%20de%20Estudantes/gerenciamento0.png)
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%206%20(Struct%2C%20Arquivos)/Gerenciamento%20de%20Estudantes/gerenciamento1.png)
