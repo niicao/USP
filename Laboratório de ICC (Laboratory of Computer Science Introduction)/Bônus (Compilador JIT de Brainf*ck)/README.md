@@ -12,11 +12,8 @@ Implemente um programa em C que interprete a linguagem de programação Brainf*c
 
 A linguagem BF é bem simples. Nela, consideramos que há uma memória com 30000 bytes e um índice ou ponteiro que indica sobre qual byte da memória iremos operar. Esse índice se inicia na posição 0 e a memória deve ser inicializada com zeros em todas as posições. Existem 6 operações que podem ser feitas nesse contexto. Cada operação será representada por um caractere
 
-+ - Incrementar o valor no índice da memória.
-- - Decrementar o valor no índice da memória.
-> - Incrementar o índice.
-< - Decrementar o índice.
-. - Imprimir o valor naquele índice da memória como um caractere ASCII.
+![alt-text]()
+
 A linguagem em si, é praticamente uma combinação de todos esses caracteres em sequência. Cada operação deve ser lida uma após a outra. Por exemplo, +++ é um programa válido em BF que torna a posição 0 (inicial) da memória no valor 3. Ou ++. é outro programa válido que deixa o valor na posição 0 igual a 2 e então imprime esse byte como um caractere ASCII.
 
 Para fechar a sintaxe da linguagem, existe uma última coisa: loops. Os loops são representados entre [ e ], assim como em C o código dos loops começa com { e termina com }. Quando o programa em BF encontra um [ ele verifica o valor no índice atual, se o valor for diferente de 0, ele executa tudo até o ] correspondente, senão, ele pula para a instrução após o ] correspondente. Quando o programa encontra um ] ele só pula para o [ correspondente. Note que, assim como na linguagem C podemos ter loops dentro de loops, esse também é o caso em BF. Como um exemplo, ++[.-] é um programa que primeiro incrementa o valor da posição 0 (inicial) para o valor 2, em seguida fica num loop que imprime o valor na posição 0 como um caractere ASCII e então decrementa o valor nessa mesma posição, na prática esse programa imprime primeiro o byte de valor 2 e depois o de valor 1, em seguida o valor na posição 0 chegará em 0 e o loop termina, encerrando também o programa.
