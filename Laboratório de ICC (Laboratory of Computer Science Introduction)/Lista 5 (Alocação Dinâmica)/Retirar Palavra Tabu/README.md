@@ -14,3 +14,5 @@ Dica 2: para a comparação, é sugerido o uso da função strncmp(). Com uma pe
 Dica 3: dependendo da sua implementação, pode ser mais fácil tratar o encontro da palavra tabu enquanto realiza a leitura da frase, e não no final. Isso NÃO é obrigatório, e sim uma SUGESTÃO.
 
 Obs: Você deve ler a frase utilizando alocação dinâmica! Programas que não utilizarem alocação dinâmica para a frase serão desconsiderados!
+
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%205%20(Aloca%C3%A7%C3%A3o%20Din%C3%A2mica)/Retirar%20Palavra%20Tabu/palavratabu0.png)
