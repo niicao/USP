@@ -78,3 +78,5 @@ Você então deverá imprimir na seguinte ordem e formatação:
 
 Pode ficar tranquilo, nenhum índice ou dado informado serão inválidos!
 *Nenhum nome terá espaço!
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%206%20(Struct%2C%20Arquivos)/Pok%C3%A9dex/pokedex0.png)
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%206%20(Struct%2C%20Arquivos)/Pok%C3%A9dex/pokedex1.png)
