@@ -12,7 +12,7 @@ Implemente um programa em C que interprete a linguagem de programação Brainf*c
 
 A linguagem BF é bem simples. Nela, consideramos que há uma memória com 30000 bytes e um índice ou ponteiro que indica sobre qual byte da memória iremos operar. Esse índice se inicia na posição 0 e a memória deve ser inicializada com zeros em todas as posições. Existem 6 operações que podem ser feitas nesse contexto. Cada operação será representada por um caractere
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/B%C3%B4nus%20(Compilador%20JIT%20de%20Brainf*ck)/bf-1.png)
 
 A linguagem em si, é praticamente uma combinação de todos esses caracteres em sequência. Cada operação deve ser lida uma após a outra. Por exemplo, +++ é um programa válido em BF que torna a posição 0 (inicial) da memória no valor 3. Ou ++. é outro programa válido que deixa o valor na posição 0 igual a 2 e então imprime esse byte como um caractere ASCII.
 
@@ -22,7 +22,7 @@ Por fim, quaisquer outros caracteres podem estar presentes no programa, entretan
 
 Para esclarecer, cada uma dessas operações possui um correspondente direto em C listados na tabela a seguir.
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/B%C3%B4nus%20(Compilador%20JIT%20de%20Brainf*ck)/bf0.png)
 
 ### Interpretando BF
 Para interpretar um programa nessa linguagem, iremos usar uma abordagem de tradução do código em BF (uma linguagem nova) para a linguagem C (a linguagem que conhecemos). Ou seja, podemos transformar um código de BF para C e usar um compilador C para transformar isso num binário que podemos executar. Esse processo de tradução de uma linguagem a outra é chamada transpilação.
@@ -31,7 +31,7 @@ Para guardar o código C gerado, um arquivo temporário deve ser usado. Esse arq
 
 Por fim, esse programa que será gerado deve conter um último pedaço de código que será responsável por imprimir os valores não nulos da memória. Ou seja, ao final do código gerado, você deverá adicionar a seguinte lógica:
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/B%C3%B4nus%20(Compilador%20JIT%20de%20Brainf*ck)/bf1.png)
 
 Note que esses comentários, espaços e indentação não precisam estar presentes no seu código gerado. Aqui eles estão presentes apenas por propósitos didáticos.
 
@@ -47,7 +47,7 @@ Fechar o arquivo temporário.
 Rodar o comando de compilação do gcc nesse arquivo temporário para gerar um executável.
 Rodar o executável gerado pelo comando de compilação.
 
-![alt-text]()
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/B%C3%B4nus%20(Compilador%20JIT%20de%20Brainf*ck)/bf2.png)
 
 ### Dicas de implementação
 Para rodar comandos a partir do seu programa, a função system() da stdlib.h pode ser utilizado. Ele permite rodar qualquer comando, como se fosse dentro do terminal, a partir do seu programa C. Essa função pode ser tanto utilizada para compilar o código gerado com gcc quando para rodar o binário gerado por ele. No caso podemos usar system("gcc jit-gerado -o jit-exe") para compilar o programa e então system("./jit-exe") para rodar.
