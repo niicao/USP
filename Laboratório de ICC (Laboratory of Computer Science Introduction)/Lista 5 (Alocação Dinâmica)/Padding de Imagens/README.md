@@ -11,40 +11,71 @@ Como saída o programa deverá exibir a imagem com o padding, e, após pular uma
 
 Exemplo:
 Entrada:
+
 3
+
 3
+
 1 1 1
+
 2 2 2
+
 3 3 3
+
+
 2
+
 Saída:
+
 0 0 0 0 0 0 0
+
 0 0 0 0 0 0 0
+
 0 0 1 1 1 0 0
+
 0 0 2 2 2 0 0
+
 0 0 3 3 3 0 0
+
 0 0 0 0 0 0 0
+
 0 0 0 0 0 0 0
 
 1 1 1
+
 2 2 2
+
 3 3 3
+
 
 Entrada:
 2
+
 3
+
 1 1
+
 2 2
+
 3 3
+
+
 1
 
 Saída:
+
 0 0 0 0
+
 0 1 1 0
+
 0 2 2 0
+
 0 3 3 0
+
 0 0 0 0
 
 1 1
+
 2 2
+
 3 3  
