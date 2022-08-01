@@ -6,3 +6,4 @@ Como você é um (a) ótimo (a) programador (a), você decide desenvolver um pro
 Após estas etapas serem realizadas espera-se que a posição da imagem seja revertida à original.
 
 A imagem na tela deverá ser representada por uma matriz do tipo char de ordem M x N, em que M representa o número de linhas e N representa o número de colunas desta matriz.
+![alt-text](https://github.com/niicao/USP/blob/main/Laborat%C3%B3rio%20de%20ICC%20(Laboratory%20of%20Computer%20Science%20Introduction)/Lista%204%20(Fun%C3%A7%C3%B5es%20e%20Ponteiros)/Sintonizando%20Imagem/sintonizandoimagem.png)
