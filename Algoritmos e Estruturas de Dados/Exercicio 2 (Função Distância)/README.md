@@ -23,3 +23,5 @@ dica: caso apareça algum erro parecido com "undefined reference to `pow'" acres
 
 ## Saída
 Deverá ser impresso fora se o ponto estiver fora da circunferência, dentro se estiver dentro, ou no raio se o ponto estiver exatamente no raio.
+
+![alt-text](https://github.com/niicao/USP/blob/main/Algoritmos%20e%20Estruturas%20de%20Dados/Exercicio%202%20(Fun%C3%A7%C3%A3o%20Dist%C3%A2ncia)/Exemplo%20Fun%C3%A7%C3%A3o%20Dist%C3%A2ncia.png)
